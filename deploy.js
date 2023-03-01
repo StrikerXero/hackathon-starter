@@ -105,7 +105,7 @@ function sshConnect() {
         // TODO: ADD YOUR IP ADDRESS BELOW, in place of the zeros below
         host: "18.204.16.60",
         username: "ubuntu",
-        privateKeyPath: "userslab.pem",
+        privateKeyPath: "/userslab.pem",
     })
         .then(function () {
             console.log("SSH Connection established.");
