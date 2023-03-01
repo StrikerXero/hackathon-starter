@@ -3,7 +3,6 @@
 /* eslint-disable camelcase */
 /* eslint-disable prefer-const */
 /* eslint-disable no-use-before-define */
-import cmd from 'node-cmd';
 let cmd = require 'node-cmd';
 
 let path; let node_ssh; let ssh; let fs;
