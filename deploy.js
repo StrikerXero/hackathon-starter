@@ -4,9 +4,9 @@
 /* eslint-disable prefer-const */
 /* eslint-disable no-use-before-define */
 import cmd from 'node-cmd';
+let cmd = require 'node-cmd';
 
-let path; let node_ssh; let ssh; let
-  fs;
+let path; let node_ssh; let ssh; let fs;
 fs = require('fs');
 path = require('path');
 // eslint-disable-next-line camelcase
